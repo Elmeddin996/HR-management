@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index.js" defer></script>
+    <title>HR Managment System</title>
+</head>
+
+<body>
+    <header>
+        <div class="head-container">
+            <h3>Company Logo</h3>
+            <div class="search">
+                <input class="srch" type="text" placeholder="Search by name or surname">
+                <img src="./assets/icons/search-icon.png" class="srch" type="submit">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="login-page">
+                <div class="background">
+                    <div class="shape"></div>
+                    <div class="shape"></div>
+                </div>
+                <form>
+                    <h3>Login Here</h3>
+
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Email or Phone" id="username">
+
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Password" id="password">
+
+                    <button>Log In</button>
+                    <hr id="alert">
+                    <div class="social">
+                        <div class="go"><i class="fab fa-google"></i> Google</div>
+                        <div class="fb"><i class="fab fa-facebook"></i> Facebook</div>
+                    </div>
+                </form>
+            </div>
+            <div class="managment-page">
+                <div class="add-new-worker">
+                    <input type="text" id="name-input" placeholder="Enter Name">
+                    <input type="text" id="surname-input" placeholder="Enter Surname">
+                    <input type="text" id="employment-input" placeholder="Enter Profession">
+                    <input type="number" id="salary-input" placeholder="Enter Salary">
+                    <button>Add</button>
+                </div>
+                <div class="table-wrapper">
+                    <table class="fl-table">
+                        <thead>
+                            <tr>
+                                <th>ID </th>
+                                <th>Name</th>
+                                <th>Surname</th>
+                                <th>Employment</th>
+                                <th>Salary</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+
+                        <tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
